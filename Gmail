@@ -1,2 +1,5 @@
 Desactivar todos los Proxys DNS
-Modificar Registro...
+Modificar Registro:
+Tipo: TXT
+Nombre: "dominio" (ej: digitaldevs.cl)
+Contenido: v=spf1 ip4:138.255.103.114 mx include:relay.mailchannels.net include:_spf.google.com ~all
