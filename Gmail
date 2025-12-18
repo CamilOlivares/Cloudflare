@@ -1,5 +1,12 @@
 Desactivar todos los Proxys DNS
+----------------------------------
 Modificar Registro:
 Tipo: TXT
 Nombre: "dominio" (ej: digitaldevs.cl)
 Contenido: v=spf1 ip4:138.255.103.114 mx include:relay.mailchannels.net include:_spf.google.com ~all
+----------------------------------
+Agregar Registro:
+Tipo: TXT
+Nombre: _dmarc
+Contenido: v=DMARC1; p=none; rua=mailto:postmaster@digitaldevs.cl; ruf=mailto:postmaster@digitaldevs.cl; fo=1
+//Evita el Spameo y reputacion)
