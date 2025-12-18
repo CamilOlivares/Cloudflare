@@ -1,1 +1,6 @@
+-Crear Registros:
+--Tipo: A
+--Nombre: "store" //(Si el subdominio es store.midominio.com)
+--Contenido: 111.111.111.111 (Se debe extraer a traves de la Terminal Mac "ping -c 1 store.digitaldevs.cl")
+--Estado de Proxy: "Solo DNS" (Proxys siempre Desactivados si se usa Gmail para el correo)
 
